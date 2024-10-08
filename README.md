@@ -84,7 +84,8 @@ This advanced approach incorporates the maturity of the loans and uses more comp
 
 RWA_Advanced = LGD × K × EAD × 12.5
 
-Where **K** is a function of PD, and a correlation factor based on the maturity of the loan.
+Where **K** is a function of PD, and a correlation factor based on the maturity of the loan and **12.5** is a conversion factor to transforms capital requirements into risk-weighted assets since 1/8 = 12.5, aligning it with an 8% capital requirement ratio.
+
 
 ## 5. Results
 
